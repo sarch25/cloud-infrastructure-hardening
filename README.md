@@ -38,15 +38,17 @@ Four application containers are deployed with localhost-bound published ports. N
 
 The configuration also has documented improvement opportunities: application processes currently run as root inside containers, root SSH login is permitted, container root filesystems are writable, and an inbound firewall rule for an application port should be reviewed. A separate HTTP webhook entry point requires a transport-security and authentication review.
 
-These are **findings, not completed remediations**. See [security assessment](security/security-assessment.md).
+
+These are **findings, not completed remediations**. See [security assessment](security-assessment.md).
+
 
 
 
 ## Supporting documentation
 
-- [Architecture and verified boundaries](architecture/infrastructure.md)
-- [Security assessment and potential improvements](security/security-assessment.md)
-- [Sanitized Nginx example](examples/nginx-reverse-proxy.conf)
+- [Architecture and verified boundaries](infrastructure.md)
+- [Security assessment and potential improvements](security-assessment.md)
+- [Sanitized Nginx example](nginx-reverse-proxy.conf)
 
 ## Scope and disclosure
 
