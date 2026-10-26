@@ -40,6 +40,8 @@ The configuration also has documented improvement opportunities: application pro
 
 These are **findings, not completed remediations**. See [security assessment](security/security-assessment.md).
 
+
+
 ## Supporting documentation
 
 - [Architecture and verified boundaries](architecture/infrastructure.md)
